@@ -8,7 +8,7 @@ Currently only works with `int[]` however I'm working on making work with generi
 ## Usage
 
 ```csharp
-using TInal.Compression;
+using TInal;
 
 class Program 
 {
