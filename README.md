@@ -3,7 +3,7 @@ Basic single-file RLE compression in C#
 
 Use however you want, credit is not required but appreciated :)
 
-Currently only works with `int[]` however I'm working on making work with generic types
+Works with any C# struct. If you use it with custom structs, make sure to implement `Equals(object? other)` to avoid any expensive boxing
 
 ## Usage
 
@@ -18,7 +18,7 @@ class Program
 
 		byte[] compressed = Compression.Compress(data);
 
-		int[] decompressed = Compression.Decompress(compressed);
+		int[] decompressed = Compression.Decompress<int>(compressed);
 	}
 }
 ```
