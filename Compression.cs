@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace TInal;
+namespace Compression;
 
 public static class Compression
 {
