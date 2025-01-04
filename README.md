@@ -8,7 +8,7 @@ Works with any C# struct. If you use it with custom structs, make sure to implem
 ## Usage
 
 ```csharp
-using TInal;
+using Compression;
 
 class Program 
 {
