@@ -22,3 +22,6 @@ class Program
 	}
 }
 ```
+
+## Installation
+Simply add the `Compression.cs` file to your project, and you're good to go. 
